@@ -2,6 +2,12 @@ body {
 	max-width: 1920px;
 	margin: auto;
 }
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 * {
 	font-family: 'Inter';
 	font-style: normal;
@@ -66,11 +72,11 @@ nav a {
 	margin: 0 20px;
 	z-index: 0;
 }
-/* 
+
 .picture img {
 	width: 100%;
+}
 
-} */
 #about-me {
 	flex: 2
 }
@@ -99,7 +105,7 @@ nav a {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #8C750E;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
