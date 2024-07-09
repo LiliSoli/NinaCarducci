@@ -126,6 +126,10 @@ nav a {
 	color: #000
 }
 
+nav a:hover{
+	color: #000;
+}
+
 .social-link img {
 	width: 20px;
 }
@@ -191,8 +195,10 @@ nav a {
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
