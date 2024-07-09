@@ -6,6 +6,9 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
 		content="Nina Carducci, photographe professionnelle à Bordeaux. Découvrez mes services, mon portfolio et contactez-moi pour capturer vos moments précieux avec des photos de haute qualité.">
+	<meta charset="UTF-8">
+
+	<!-- Link -->
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +16,58 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
-	<meta charset="UTF-8">
+
+	<!-- Facebook -->
+	<meta property="og:title" content="Nina Carducci - Photographe Professionnelle à Bordeaux">
+	<meta property="og:description"
+		content="Découvrez les services de photographie de Nina Carducci, photographe professionnelle à Bordeaux. Visitez mon portfolio et contactez-moi pour capturer vos moments précieux.">
+	<meta property="og:image" content="https://lilisoli.github.io/NinaCarducci/assets/images/nina.webp">
+	<meta property="og:url" content="https://lilisoli.github.io/NinaCarducci/">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Nina Carducci Photography">
+	
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Nina Carducci - Photographe Professionnelle à Bordeaux">
+	<meta name="twitter:description"
+		content="Découvrez les services de photographie de Nina Carducci, photographe professionnelle à Bordeaux. Visitez mon portfolio et contactez-moi pour capturer vos moments précieux.">
+	<meta name="twitter:image" content="https://lilisoli.github.io/NinaCarducci/assets/images/nina.webp">
+
+	<!-- Script-->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Person",
+			"name": "Nina Carducci",
+			"jobTitle": "Photographe professionnelle",
+			"image": "https://lilisoli.github.io/NinaCarducci/assets/images/nina.webp",
+			"address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FR"
+			},
+			"telephone": "05.56.67.78.89",
+			"url": "https://lilisoli.github.io/NinaCarducci/",
+			"sameAs": [
+			"https://www.instagram.com/ninacarducci.photo/?hl=fr"
+			],
+			"openingHoursSpecification": {
+			"@type": "OpeningHoursSpecification",
+			"dayOfWeek": [
+				"Monday",
+				"Tuesday",
+				"Wednesday",
+				"Thursday",
+				"Friday"
+			],
+			"opens": "10:00",
+			"closes": "19:00"
+			},
+			"description": "Nina Carducci, photographe professionnelle à Bordeaux. Découvrez mes services, mon portfolio et contactez-moi pour capturer vos moments précieux avec des photos de haute qualité."
+		}
+	</script>
 </head>
 
 <body>
@@ -71,7 +125,8 @@
 
 		<section id="about">
 			<div class="picture left">
-				<img src="./assets/images/nina.webp" alt="Nina Carducci" title="Portrait de Nina Carducci" width="474" height="473" loading="lazy">
+				<img src="./assets/images/nina.webp" alt="Nina Carducci" title="Portrait de Nina Carducci" width="474"
+					height="473" loading="lazy">
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
@@ -236,6 +291,7 @@
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
+
 
 </body>
 
